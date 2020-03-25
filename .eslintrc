@@ -1,0 +1,13 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": "airbnb-base",
+  "parser": "babel-eslint",
+  "rules": {
+    "func-names": 0,
+    "import/no-unresolved": [2, { "ignore": ["^~"] }],
+    "global-require": 0,
+    "no-underscore-dangle": 0
+  }
+}
